@@ -1,4 +1,5 @@
 terraform-gke-keyfile.json
 variables.auto.tfvars
+tfstate
 .idea
 .terraform
