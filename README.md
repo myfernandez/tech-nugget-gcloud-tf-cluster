@@ -4,7 +4,9 @@ This is a personal repo
 What's for: Using Terraform to manage a GCP container cluster
 
 Note: svc account under roles
+
 Service Account Admin
+
 Service Account User
  
 
