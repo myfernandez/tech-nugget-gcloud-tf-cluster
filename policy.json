@@ -1,0 +1,17 @@
+{
+    "bindings": [
+    {
+        "role": "roles/iam.serviceAccountUser",
+        "members": [
+            "user:svc-acct@digital-well-263405.iam.gserviceaccount.com"
+        ]
+    },
+    {
+        "role": "roles/owner",
+        "members": [
+            "user:svc-acct@digital-well-263405.iam.gserviceaccount.com"
+        ]
+    }
+    ],
+    "etag": "BwUqLaVeua8=",
+}

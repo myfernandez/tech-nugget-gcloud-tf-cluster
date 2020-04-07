@@ -1,0 +1,4 @@
+terraform-gke-keyfile.json
+variables.auto.tfvars
+.idea
+.terraform
