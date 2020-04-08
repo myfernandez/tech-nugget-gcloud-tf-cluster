@@ -1,39 +1,26 @@
 # gcloud-tf-cluster
+
 This is a personal repo
 
-What's for: Using Terraform to manage a GCP container cluster
+**What's for: Using Terraform to manage a GKE container cluster**
 
-Note: svc account under roles
-
-Service Account Admin
-
-Service Account User
- 
+*Note: gcp svc account roles: Service Account Admin and Service Account User*
 
 Files Layout:
 
 .
+├ main.tf (local backend)
+├ policy.json (ignored, service account policy set up)
+├ providers.tf (google and google-beta 2.20.0)
+├ terraform-gke-keyfile.json (ignored)
+├ terraform.tf (gke module)
+├ tfstate (ignored)
+   	└── terraform-gcp-gke.tfstate
+	   └── terraform-gcp-gke.tfstate.backup
+├ variables.auto.tfvars.generic (sample file, generic)
+├ vars.tf
 
-├── main.tf (local backend)
+*To generate json key file*
 
-├── providers.tf (google and google-beta 2.20.0)
-
-├── <key-file.json> (ignored from repo)
-
-├── terraform.tf 
-
-├── tfstate (ignored from repo)
-
-│   ├── terraform-gcp-gke.tfstate
-
-│   └── terraform-gcp-gke.tfstate.backup
-
-├── variables.auto.tfvars.generic (sample file, but generic)
-
-└── vars.tf
-
-To generate json key file:
-
-gcloud iam service-accounts keys create <key-file.json> \
- --iam-account=<service_account_name>@<project_name>.iam.gserviceaccount.com
-
+`gcloud iam service-accounts keys create <key-file.json> \`
+`--iam-account=<service_account_name>@<project_name>.iam.gserviceaccount.com`
