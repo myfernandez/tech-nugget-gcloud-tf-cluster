@@ -9,16 +9,16 @@ This is a personal repo
 Files Layout:
 
 .
-├ main.tf (local backend)
-├ policy.json (ignored, service account policy set up)
-├ providers.tf (google and google-beta 2.20.0)
-├ terraform-gke-keyfile.json (ignored)
-├ terraform.tf (gke module)
-├ tfstate (ignored)
-   	└── terraform-gcp-gke.tfstate
-	   └── terraform-gcp-gke.tfstate.backup
-├ variables.auto.tfvars.generic (sample file, generic)
-├ vars.tf
+├ main.tf (local backend) <br />
+├ policy.json (ignored, service account policy set up) <br />
+├ providers.tf (google and google-beta 2.20.0) <br />
+├ terraform-gke-keyfile.json (ignored) <br />
+├ terraform.tf (gke module) <br />
+├ tfstate (ignored) <br />
+   	└── terraform-gcp-gke.tfstate <br />
+	   └── terraform-gcp-gke.tfstate.backup <br />
+├ variables.auto.tfvars.generic (sample file, generic) <br />
+├ vars.tf <br />
 
 *To generate json key file*
 
