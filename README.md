@@ -8,7 +8,7 @@ This is a personal repo
 
 Files Layout:
 
-.
+.  <br />
 ├ main.tf (local backend) <br />
 ├ policy.json (ignored, service account policy set up) <br />
 ├ providers.tf (google and google-beta 2.20.0) <br />
