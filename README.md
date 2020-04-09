@@ -4,7 +4,7 @@ This is a personal repo
 
 **What's for: Using Terraform to manage a GKE container cluster**
 
-*Note1: gcp svc account roles: Service Account Admin and Service Account User*
+*Note1: gcp svc account roles: Service Account Admin and Service Account User* <br />
 *Note2: This example is more about Terraform rather than bootstrapping a K8 cluster optimally*
 
 Files Layout:
